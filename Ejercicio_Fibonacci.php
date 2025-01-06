@@ -28,4 +28,8 @@ function generarFibonacci($n) {
     return $fibonacci;
 }
 
+// Ejemplos de uso
+echo "1. Serie Fibonacci (primeros 8 términos):\n";
+print_r(generarFibonacci(8));
+
 ?>
