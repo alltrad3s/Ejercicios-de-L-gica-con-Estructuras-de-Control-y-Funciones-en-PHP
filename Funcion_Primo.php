@@ -21,4 +21,9 @@ function esPrimo($numero) {
     
     return true;
 }
+
+// Ejemplos de uso
+echo "\n2. Verificación de números primos:\n";
+$numero = 17;
+echo "$numero " . (esPrimo($numero) ? "es" : "no es") . " primo\n";
 ?>
